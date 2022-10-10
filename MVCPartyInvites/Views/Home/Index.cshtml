@@ -1,0 +1,52 @@
+﻿@using MVCPartyInvites.Data
+@model IEnumerable<Gast>
+@{
+    ViewData["Title"] = "Home Page";
+
+    var lstt = LocalData.GastList.Where(x => x.Aanwezig == true)
+                                .Select(y => $"({y.Naam} - {y.Email} - {y.Telefoon})")
+                                .ToList();
+
+    var lstf = LocalData.GastList.Where(x => x.Aanwezig == null || x.Aanwezig == false)
+    .Select(y => $"({y.Naam} - {y.Email} - {y.Telefoon})")
+    .ToList();
+
+}
+
+<div class="text-center">
+    <p>Welkom op de registratie pagina van PXL.</p>
+    <a asp-controller="Gast" asp-action="Index">Schrijf je hier in!</a>
+    @if(Model.Count() > 0)
+    {
+        <table>
+            <tr>
+                <th class="font-weight-bold">Aanwezig</th>
+            </tr>
+            <tbody>
+                @foreach (var g in lstt)
+                {
+                    <tr>
+                        <td>
+                            @g
+                        </td>
+                    </tr>
+                }                
+            </tbody>            
+        </table>
+        <table>
+            <tr>
+                <th class="font-weight-bold">Afwezig</th>
+            </tr>
+                <tbody>
+                @foreach (var g in lstf)
+                {
+                    <tr>
+                        <td>
+                            @g
+                        </td>
+                    </tr>
+                }
+                </tbody>
+        </table>
+    }
+</div>

@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    int teller = (int)ViewBag.Teller;
+    teller = (int)ViewData["Teller"];
+
+}
+
+<div>
+    <ul class="list-unstyled text-center">
+        @for (int i = 1; i < teller; i++)
+        {
+            <li>
+                Dit is test @i uit de viewbag!
+            </li>
+        }
+    </ul>
+</div>

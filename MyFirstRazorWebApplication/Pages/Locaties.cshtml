@@ -1,0 +1,40 @@
+﻿@page
+@model MyFirstRazorWebApplication.Pages.LocatiesModel
+@{
+    ViewData["Title"] = "Klanten page";
+
+    var locaties = MyFirstRazorWebApplication.Data.Databank.locaties;
+    var rowId = 0;
+
+
+}
+
+<h1>Locaties</h1>
+<hr />
+
+<a asp-page="NieuweLocatie" class="btn btn-outline-primary m-1 m-">Nieuwe Locatie toevoegen</a>
+
+<table class=" table table-bordered">
+    <thead>        
+        <tr>
+            <th scope="col">LocationId</th>
+            <th scope="col">PostCode</th>
+            <th scope="col">City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var locatie in locaties)
+        {
+            rowId++;
+
+                <tr>
+                   <th scope="row">@rowId</th>
+                   <td>@locatie.PostCode</td>
+                   <td>@locatie.City</td>
+                </tr>
+        }
+    </tbody>
+
+</table>
+
+

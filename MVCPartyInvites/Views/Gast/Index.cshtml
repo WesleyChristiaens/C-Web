@@ -1,0 +1,43 @@
+﻿@model Gast
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+
+}
+<form asp-action="Reservatie" method="post">
+
+    @*div asp-validation-summary="All" wilt zeggen dat alle foute validaties omtrent je formulier in deze div terechtkomen.*@
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group w-25 p-1">    
+    <label class="form-label" asp-for="Naam"></label>
+    <input class="form-control" asp-for="Naam" />
+    </div>
+
+    <div class="form-group w-25 p-1">    
+    <label class="form-label" asp-for="Email"></label>
+    <input class="form-control" asp-for="Email" />
+    @*Op onderstaande manier kan je de validatie - foutmelding naast de input laten verschijnen.*@
+    <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group w-25 p-1">    
+    <label class="form-label" asp-for="Telefoon"></label>
+    <input class="form-control" asp-for="Telefoon" />
+    </div>
+
+    <div class="form-group w-25 p-1">    
+    <label class="form-label" asp-for="Aanwezig"></label>
+    <select asp-for="Aanwezig">
+        <option value="">Kies één van de opties</option>
+        <option value="true">Ja, ik zal aanwezig zijn.</option>
+        <option value="false">Neen, ik kan niet komen.</option>
+    </select>
+    </div>
+
+
+    <button type="submit">Inschrijven</button>
+</form>
+

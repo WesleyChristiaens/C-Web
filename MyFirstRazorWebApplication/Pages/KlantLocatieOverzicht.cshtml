@@ -1,0 +1,44 @@
+﻿@page
+@model MyFirstRazorWebApplication.Pages.KlantLocatieOverzichtModel
+@{
+    ViewData["Title"] = "Klant/locatie Overzicht";
+
+    var locaties = MyFirstRazorWebApplication.Data.Databank.locaties;
+    var klanten = MyFirstRazorWebApplication.Data.Databank.klanten;
+    var rowId = 0;
+
+   var klantlocaties = 
+   from k in klanten
+   join l in locaties
+   on k.LocatieId equals l.LocationID 
+   select new {
+       klantnaam = k.KlantNaam,
+       locatie = l.City
+   };
+    
+}
+
+<h1>Locaties</h1>
+<hr />
+
+<table class=" table table-bordered">
+    <thead>        
+        <tr>
+            <th scope="col">Klant</th>
+            <th scope="col">City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in klantlocaties)
+        {
+            rowId++;
+
+                    <tr>
+                       <th scope="row">@rowId</th>
+                       <td>@obj.klantnaam</td>
+                       <td>@obj.locatie</td>
+                    </tr>
+        }
+    </tbody>
+
+</table>

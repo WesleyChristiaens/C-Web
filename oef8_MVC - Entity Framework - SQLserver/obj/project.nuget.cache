@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "OZ0Cvge/zDJkwqRvyegsqNdp/ua/8PLqXpT2Zxrm0CkN/UKOcL9Sl+WdfPKVOM3dR0JxB1DqkS7uXQuAsTP8Pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\oef8_MVC - Entity Framework - SQLserver\\oef8_MVC - Entity Framework - SQLserver.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zesse\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.9\\microsoft.aspnetcore.mvc.razor.extensions.6.0.9.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.9.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.9\\microsoft.aspnetcore.razor.language.6.0.9.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.0\\microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.0\\microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.9\\microsoft.codeanalysis.razor.6.0.9.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\zesse\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

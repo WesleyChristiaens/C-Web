@@ -1,0 +1,48 @@
+﻿@page
+@model MyFirstRazorWebApplication.Pages.KlantModel
+@{
+    ViewData["Title"] = "Klanten page";
+
+    var klanten = MyFirstRazorWebApplication.Data.Databank.klanten;
+    var rowId = 0;
+
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Klanten</h1>
+        <hr />
+        <p>Dit is onze Klanten razor page.</p>
+
+    @foreach (var klant in klanten)
+    {
+               <div>
+                    <h3>klantid: @klant.KlantId</h3>
+                    <h4>klantnaam: @klant.KlantNaam</h4>
+               </div>
+    }       
+    </div>
+
+    <a asp-page="NieuweKlant" class="btn btn-outline-primary m-1 m-">Nieuwe Klant toevoegen</a>
+
+    <table class="table table-bordered m-1">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">KlantId</th>
+                <th scope="col">KlantNaam</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var klant in klanten)
+        {
+            rowId++;
+                    <tr>
+                        <th scope="row">@rowId</th>
+                            <td>@klant.KlantId</td>
+                            <td>@klant.KlantNaam</td>
+
+                    </tr>
+        }
+        </tbody>
+    </table>
+

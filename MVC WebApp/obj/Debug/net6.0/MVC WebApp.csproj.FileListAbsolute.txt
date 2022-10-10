@@ -1,0 +1,26 @@
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.staticwebassets.runtime.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.exe
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.deps.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.runtimeconfig.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\bin\Debug\net6.0\MVC WebApp.pdb
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.csproj.AssemblyReference.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.AssemblyInfoInputs.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.AssemblyInfo.cs
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.csproj.CoreCompileInputs.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.RazorAssemblyInfo.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.RazorAssemblyInfo.cs
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\scopedcss\bundle\MVC WebApp.styles.css
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\scopedcss\projectbundle\MVC WebApp.bundle.scp.css
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\refint\MVC WebApp.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.pdb
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\MVC WebApp.genruntimeconfig.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVC WebApp\obj\Debug\net6.0\ref\MVC WebApp.dll

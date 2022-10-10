@@ -1,0 +1,22 @@
+﻿@page
+@model MyFirstRazorWebApplication.Pages.LocatieDetailsModel
+@{
+
+    /* id uit OnGet functie halen d.m.v 'Model. '*/
+    var id = Model.LocationId;
+
+    /* Overeenkomstig record zoeken in databank locaties d.m.v LINQ */
+    var record = Data.Databank.locaties.Where(x => { return x.LocationID == id; })
+                                .FirstOrDefault();
+
+    /* record validatie met ternary operator */
+    var postcode = (record !=null) ? record.PostCode.ToString() : "" ;
+    var city = (record != null) ? record.City : "";
+    
+}
+
+<h1>LocatieDetails</h1>
+<hr />
+<p>ID: @id</p>
+<p>PostCode: @postcode</p>
+<p>City: @city</p>

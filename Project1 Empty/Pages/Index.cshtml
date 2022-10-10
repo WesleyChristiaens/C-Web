@@ -1,0 +1,41 @@
+﻿@page
+@model Project1_Empty.Pages.IndexModel
+@{
+    /* hier kan je C# code schrijven tussen de curly brackets */
+
+    var name = string.Empty;
+
+    if (Request.HasFormContentType) /* TODO: Op Wat controleert hij hiermee ??? */
+    {
+        name = Request.Form["name"];
+    }
+}
+
+
+@* HTML code komt onder de brackets te staan *@
+
+<div>
+    <form method="post">
+        <div> Name : <input name="name" /></div>
+        <div><input type="submit" /></div>
+        @Html.AntiForgeryToken()
+        </form>
+</div>
+
+
+<div>
+<a href="/Wesley">test Wesley.razorpage</a>
+<br />
+<a asp-page="Wesley"> Test via taghelper</a>
+</div>
+
+
+<div>
+    @if(!string.IsNullOrEmpty(name))
+    {
+        <p>Hello @name !</p>
+    }
+</div>
+
+
+

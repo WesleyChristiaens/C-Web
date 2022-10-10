@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "OxvTTus3i6G+YHUXxSvEm3r8PNytEPc1Bt33+fqpKKs=",
+  "Source": "Project1 Empty",
+  "BasePath": "_content/Project1 Empty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Project1 Empty\\wwwroot",
+      "Source": "Project1 Empty",
+      "ContentRoot": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\Project1 Empty\\wwwroot\\",
+      "BasePath": "_content/Project1 Empty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\Project1 Empty\\wwwroot\\default.html",
+      "SourceId": "Project1 Empty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\Project1 Empty\\wwwroot\\",
+      "BasePath": "_content/Project1 Empty",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    },
+    {
+      "Identity": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\Project1 Empty\\wwwroot\\Test.html",
+      "SourceId": "Project1 Empty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\Project1 Empty\\wwwroot\\",
+      "BasePath": "_content/Project1 Empty",
+      "RelativePath": "Test.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Test.html"
+    }
+  ]
+}

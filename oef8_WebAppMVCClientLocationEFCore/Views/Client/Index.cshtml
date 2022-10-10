@@ -1,0 +1,47 @@
+﻿@model IEnumerable<oef8_WebAppMVCClientLocationEFCore.Models.Client>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.ClientId  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.ClientId  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.ClientId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

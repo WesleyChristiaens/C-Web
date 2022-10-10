@@ -1,0 +1,34 @@
+﻿@page
+@using MyFirstRazorWebApplication.Data
+@model MyFirstRazorWebApplication.Pages.NieuweKlantModel
+@{
+    var locaties =
+      MyFirstRazorWebApplication.Data.Databank.locaties.Select(x =>
+      {
+          return new SelectListItem
+                  {
+                      Text = x.City,
+                      Value = x.LocationID.ToString()
+                  };
+      });
+
+
+}
+
+    <form  class="form" method="post">
+        <fieldset>
+            <legend>Klant toevoegen</legend>
+            <hr />
+        </fieldset>
+         <div class="form-group m-1">
+            <label>Name:</label>
+            <input class="form-control w-25" type="text" placeholder="Enter name" name="klantnaam" required />
+         </div>
+         <div class="form-group m-1">
+            <label for="locatie">Locatie:</label>
+            <select class="form-control w-25" name="locatieid" asp-items="locaties" required>                        
+            </select>
+         </div>
+         <input type="submit" value="submit" class="submit">        
+
+    </form>

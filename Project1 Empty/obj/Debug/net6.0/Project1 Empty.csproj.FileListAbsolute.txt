@@ -1,0 +1,24 @@
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\appsettings.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.staticwebassets.runtime.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.exe
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.deps.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.runtimeconfig.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\bin\Debug\net6.0\Project1 Empty.pdb
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.csproj.AssemblyReference.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.AssemblyInfoInputs.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.AssemblyInfo.cs
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.csproj.CoreCompileInputs.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.RazorAssemblyInfo.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.RazorAssemblyInfo.cs
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\scopedcss\bundle\Project1 Empty.styles.css
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\refint\Project1 Empty.dll
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.pdb
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\Project1 Empty.genruntimeconfig.cache
+C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\Project1 Empty\obj\Debug\net6.0\ref\Project1 Empty.dll

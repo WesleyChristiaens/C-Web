@@ -1,0 +1,27 @@
+﻿@page
+@using MyFirstRazorWebApplication.Data
+@model MyFirstRazorWebApplication.Pages.NieuweLocatieModel
+@{
+    
+    var locaties = MyFirstRazorWebApplication.Data.Databank.locaties;
+}
+
+
+
+   
+    <form  class="form" method="post">    
+        <fieldset>
+            <legend>Locatie toevoegen</legend> 
+            <hr />
+         <div class="form-group m-1">
+            <label>Postcode:</label>
+            <input name="PostCode" class="form-control w-25" type="text" placeholder="Enter postal code"  required />
+         </div>
+         <div class="form-group m-1">
+            <label>City:</label>
+            <input name="City" class="form-control w-25" type="text" placeholder="Enter city"  required />
+         </div>
+         <input type="submit" value="submit" class="submit" />
+       </fieldset>
+    </form>
+

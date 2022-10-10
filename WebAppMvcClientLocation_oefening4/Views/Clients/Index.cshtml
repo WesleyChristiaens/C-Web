@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Client>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var lst = Model.Select(x => new string[] { x.ClientId.ToString(), x.LocationId.ToString(), x.ClientName.ToString() });
+
+}
+
+<header>
+
+    <h1>Clients</h1>
+    <a class="nav-link" asp-controller="Clients" asp-action="Create">Create new</a>
+    <table class="table table-responsive">
+        <thead>
+            <tr >
+                <th scope="col">
+                    <p>ClientId</p>
+                </th>
+                <th scope="col">
+                    <p>LocationId</p>
+                </th>
+                <th scope="col">
+                    <p>ClientName</p>
+                </th>
+                <th scope="col">
+                    
+                </th>
+            </tr>            
+        </thead>
+        <tbody>            
+            @foreach (var client in lst)
+            {
+                <tr>
+                    <td>@client[0]</td>
+                    <td>@client[1]</td>
+                    <td>@client[2]</td>
+                    <td>
+                        <a class="link-primary p-1">Edit</a> |
+                        <a class="link-primary p-1">Details</a> |
+                        <a class="link-primary p-1">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</header>

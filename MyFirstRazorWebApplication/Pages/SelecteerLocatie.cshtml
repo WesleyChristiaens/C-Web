@@ -1,0 +1,23 @@
+﻿@page
+@model MyFirstRazorWebApplication.Pages.SelecteerLocatieModel
+@{
+    var locaties =
+      MyFirstRazorWebApplication.Data.Databank.locaties.Select(x =>
+      {
+          return new SelectListItem
+                  {
+                      Text = x.City,
+                      Value = x.LocationID.ToString()
+                  };
+      });
+
+}
+
+<div>
+    <h1>Selecteer Locatie</h1>
+    <hr />
+    <form method="post">
+        <select name="SelectLocatie" asp-items="@locaties"></select>
+        <input type="submit" value="Selecteer locatie" class="submit">
+    </form>
+</div>

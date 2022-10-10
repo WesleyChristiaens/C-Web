@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - oef8_WebAppMVCClientLocationEFCore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/oef8_WebAppMVCClientLocationEFCore.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <h1 class="text-center">PXL - Oefening</h1>
+    <header class="row">
+       <div class="row m-1 p-1">
+        <div id="menu" class="col-3 border border-primary">
+           <ul class="nav-tabs navbar-dark list-unstyled border-0 m-1 ">
+               <li class="nav-item">                        
+                   <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+               </li>
+               <li>
+                   <a class="nav-link" asp-controller="Client" asp-action="Index">Clients</a>
+               </li>
+               <li>
+                   <a class="nav-link" asp-controller="Location" asp-action="Index">Locations</a>
+               </li>
+               <li>
+                   <a class="nav-link" asp-controller="ClientLocation" asp-action="Index">ClientLocations</a>
+               </li>
+           </ul>
+        </div>
+        <div id="main"class="col-9 border border-primary">
+                @RenderBody()
+        </div>
+    </header>
+     
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            PXL Oefening - @DateTime.Now.ToString();
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
