@@ -12,7 +12,7 @@ namespace MVCFifa2022.Controllers
         public TeamController(ApplicationDbContext context)
         {
             _context = context;            
-            _context.Database.EnsureCreated();
+            
 
         }
 

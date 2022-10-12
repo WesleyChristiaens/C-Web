@@ -5,15 +5,8 @@ using System.Text;
 
 /* Hardcoded connection string opbouwen */
 var builder = WebApplication.CreateBuilder(args);
-var sb = new StringBuilder();
-
-sb.Append("Server= (localdb)\\MSSQLLocalDB;");
-sb.Append("Database = fifa2022;");
-sb.Append("Trusted_Connection = True;");
-sb.Append("MultipleActiveResultSets = True");
-
-var connString = sb.ToString();
-
+var connString = builder.Configuration.GetConnectionString("ApplicationDbContext");
+    
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(connString)); 
 

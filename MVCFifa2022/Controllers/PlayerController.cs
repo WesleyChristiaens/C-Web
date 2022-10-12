@@ -12,7 +12,7 @@ namespace MVCFifa2022.Controllers
         public PlayerController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
-            // _context.Database.EnsureCreated();
+          
             _environment = environment;
         }
 

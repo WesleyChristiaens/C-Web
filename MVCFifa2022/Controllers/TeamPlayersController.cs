@@ -17,24 +17,24 @@ namespace MVCFifa2022.Controllers
         public TeamPlayersController(ApplicationDbContext context)
         {
             _context = context;
-            _context.Database.EnsureCreated();
+            
         }
 
         // GET: TeamPlayers
         public async Task<IActionResult> Index()
         {
-              return View(await _context.TeamPlayer.ToListAsync());
+              return View(await _context.TeamPlayers.ToListAsync());
         }
 
         // GET: TeamPlayers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.TeamPlayer == null)
+            if (id == null || _context.TeamPlayers == null)
             {
                 return NotFound();
             }
 
-            var teamPlayer = await _context.TeamPlayer
+            var teamPlayer = await _context.TeamPlayers
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (teamPlayer == null)
             {
@@ -85,12 +85,12 @@ namespace MVCFifa2022.Controllers
         // GET: TeamPlayers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.TeamPlayer == null)
+            if (id == null || _context.TeamPlayers == null)
             {
                 return NotFound();
             }
 
-            var teamPlayer = await _context.TeamPlayer.FindAsync(id);
+            var teamPlayer = await _context.TeamPlayers.FindAsync(id);
             if (teamPlayer == null)
             {
                 return NotFound();
@@ -136,12 +136,12 @@ namespace MVCFifa2022.Controllers
         // GET: TeamPlayers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.TeamPlayer == null)
+            if (id == null || _context.TeamPlayers == null)
             {
                 return NotFound();
             }
 
-            var teamPlayer = await _context.TeamPlayer
+            var teamPlayer = await _context.TeamPlayers
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (teamPlayer == null)
             {
@@ -156,14 +156,14 @@ namespace MVCFifa2022.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.TeamPlayer == null)
+            if (_context.TeamPlayers == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.TeamPlayer'  is null.");
             }
-            var teamPlayer = await _context.TeamPlayer.FindAsync(id);
+            var teamPlayer = await _context.TeamPlayers.FindAsync(id);
             if (teamPlayer != null)
             {
-                _context.TeamPlayer.Remove(teamPlayer);
+                _context.TeamPlayers.Remove(teamPlayer);
             }
             
             await _context.SaveChangesAsync();
@@ -172,7 +172,7 @@ namespace MVCFifa2022.Controllers
 
         private bool TeamPlayerExists(int id)
         {
-          return _context.TeamPlayer.Any(e => e.Id == id);
+          return _context.TeamPlayers.Any(e => e.Id == id);
         }
     }
 }

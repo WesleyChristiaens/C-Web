@@ -8,41 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCModelValidation
 build_property.RootNamespace = MVCModelValidation
-build_property.ProjectDir = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVCModelValidation\
+build_property.ProjectDir = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVCModelValidation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C# Web\Projecten\MVCModelValidation
+build_property.MSBuildProjectDirectory = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVCModelValidation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Home/Index.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Home/Privacy.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Home/TestValidation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0VmFsaWRhdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Shared/Error.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/_ViewImports.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/TestData/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdERhdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/TestData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdERhdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/TestValidation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZhbGlkYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/TestValidation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFZhbGlkYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/_ViewStart.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C\# Web/Projecten/MVCModelValidation/Views/Shared/_Layout.cshtml]
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCModelValidation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-59xp4r8wm9
