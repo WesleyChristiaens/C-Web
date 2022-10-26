@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("VoertuigConnection");
+// ALTIJD eerst Dbcontext sql server toevoegen en DAN PAS identityFrameworkstores 
 builder.Services.AddDbContext<VoertuigDbContext>(options => options.UseSqlServer(connectionString));
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<VoertuigDbContext>();
@@ -27,6 +28,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); //authentication MOET ALTIJD BOVEN authorization staan !
 app.UseAuthorization();
 
 app.MapControllerRoute(
