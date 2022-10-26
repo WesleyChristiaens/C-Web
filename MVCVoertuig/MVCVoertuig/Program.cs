@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVCVoertuig.Data;
 using MVCVoertuig.Data.DefaultData;
@@ -7,6 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("VoertuigConnection");
 builder.Services.AddDbContext<VoertuigDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<VoertuigDbContext>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
