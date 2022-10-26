@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">TagHelper</h1>
+    <div>
+        <bold>
+            Dit is een informatieve website voor het gebruik van een taghelper.<br />
+            <br />
+            Stappenplan toevoegen custom taghelpers :<br />
+            <br />
+            1) maak folder Taghelpers<br />
+            2) voeg deze toe in de _ViewImports (addTagHelper *, MVCTagHelpers)<br />
+            3)maak een nieuwe classe in de taghelper folder<br />
+            
+            [HtmlTargetElement("bold")] <br />
+            public class BoldTagHelper : TagHelper {}<br />
+            <br />
+            4) om deze dan te gebruiken op je pagina kan je bold als html element gebruiken.<br />
+            <br />
+            OF<br />
+            <br />
+            sla stap 3 over en selecteer bij het aanmaken van een nieuwe class gewoon Web -> Tag Helper Class<br />
+    
+
+
+        </bold>
+
+
+
+    </div>
+</div>

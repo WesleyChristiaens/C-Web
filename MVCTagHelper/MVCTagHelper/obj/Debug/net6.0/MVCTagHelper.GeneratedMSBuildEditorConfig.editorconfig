@@ -1,0 +1,124 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCTagHelper
+build_property.RootNamespace = MVCTagHelper
+build_property.ProjectDir = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVCTagHelper\MVCTagHelper\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVCTagHelper\MVCTagHelper
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Afdelingen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWZkZWxpbmdlblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Afdelingen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWZkZWxpbmdlblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Afdelingen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWZkZWxpbmdlblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Afdelingen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWZkZWxpbmdlblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Afdelingen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWZkZWxpbmdlblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Landen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGVuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Landen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGVuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Landen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGVuXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Landen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGVuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Landen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Locaties/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Locaties/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Locaties/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Locaties/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Locaties/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Medewerkers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkZXdlcmtlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Medewerkers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkZXdlcmtlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Medewerkers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkZXdlcmtlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Medewerkers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkZXdlcmtlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Medewerkers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkZXdlcmtlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCTagHelper/MVCTagHelper/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-04s16v0a69

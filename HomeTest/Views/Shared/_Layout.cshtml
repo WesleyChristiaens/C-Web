@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HomeTest</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HomeTest.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="row">        
+        <h1 class="text-center">HomeTest - Oefening</h1>
+        <div class="col-3 list-unstyled border border-primary">
+            <ul class="list-unstyled text-center">
+                <li class="nav item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav item">
+                    <a class="nav-link" asp-controller="Clients" asp-action="Index">Clients</a>
+                </li>
+                <li class="nav item">
+                    <a class="nav-link" asp-controller="Locations" asp-action="Index">Locations</a>
+                </li>
+                
+            </ul>           
+        </div>       
+        <div class="col-9 border border-primary text-center">            
+            <h1>Welcome your current Database contains following:</h1>
+            <h3>Clients:@ViewBag.ClientCount</h3>
+            <h3>Locations:@ViewBag.LocationCount</h3>
+        </div>       
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <p>Hometest Oefening - @DateTime.Now.ToString()</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

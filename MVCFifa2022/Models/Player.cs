@@ -5,7 +5,7 @@ namespace MVCFifa2022.Models
     public class Player
     {
 
-        public int? PLayerId { get; set; }
+        public int PLayerId { get; set; }
 
         [Required]
         public  string? FirstName { get; set; }

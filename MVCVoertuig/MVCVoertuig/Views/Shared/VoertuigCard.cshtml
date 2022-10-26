@@ -1,0 +1,15 @@
+﻿@model MVCVoertuig.Models.Data.Voertuig
+@{
+}
+
+<div class="card card-outline-primary border-primary m-1 p-1">
+    <div class="bg-faded p-1">
+        <h4>
+            @Model.Merk        
+            <span class="badge bg-primary" style="float:right">
+                @Model.MerkType
+            </span>
+        </h4>
+    </div>
+    <div class="card-text p-1">@Model.Bouwjaar - @Model.Km</div>
+</div>

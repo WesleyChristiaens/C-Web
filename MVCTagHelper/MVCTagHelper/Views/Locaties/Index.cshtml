@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MVCTagHelper.Models.Locatie>
+
+@{
+    ViewData["Title"] = "Index";
+    var header = "Locaties 🌍";
+    var footer = $"Locaties - {DateTime.Now.ToString("dd/MM/yyyy")}";
+}
+
+
+<div header="@header" footer="@footer">
+   
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                    @Html.DisplayNameFor(model => model.Stad)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Land)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Stad)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Land.LandId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.LocatieId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.LocatieId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.LocatieId">Delete</a>
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>
+</div>

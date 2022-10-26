@@ -1,0 +1,20 @@
+﻿@model IEnumerable<string>
+@{
+}
+
+<ul class="navbar nav">
+    <li class="nav-item">
+        <a button-color="info" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a button-color="info" asp-controller="Voertuig" asp-action="Index">Voertuigen</a>
+    </li>
+    @foreach(string merk in Model)
+    {
+      <li class="nav-item">
+        <a button-color="info" asp-controller="Voertuig" asp-action="Merk" asp-route-merk="@merk">@merk</a>
+     </li>
+    }
+</ul>
+
+

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MVCFifa2022.Data;
 using MVCFifa2022.Models;
 
@@ -11,8 +12,7 @@ namespace MVCFifa2022.Controllers
 
         public PlayerController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
-            _context = context;
-          
+            _context = context;          
             _environment = environment;
         }
 
@@ -28,17 +28,18 @@ namespace MVCFifa2022.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            Player player = new Player();
+            var player = new NewPlayer();
+            ViewBag.TeamId = new SelectList(_context.Teams, "TeamId", "TeamName");
             return View(player);
         }
 
         [HttpPost]
-        public IActionResult Create(Player player)
+        public IActionResult Create(NewPlayer player)
         {
             if (ModelState.IsValid)
             {
-                _context.Players.Add(player);
-                _context.SaveChanges();
+                AddPlayer(player);
+                
                 return RedirectToAction("Index");
             }    
 
@@ -102,6 +103,26 @@ namespace MVCFifa2022.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+
+        private void AddPlayer(NewPlayer player)
+        {
+            Player p = (Player)player;
+            _context.Players.Add(p);
+            _context.SaveChanges();
+
+            var tp = new TeamPlayer();
+            tp.PlayerId = p.PLayerId;
+            tp.TeamId = player.TeamId;
+            tp.StartDate = DateTime.Now;
+            _context.TeamPlayers.Add(tp);
+            _context.SaveChanges();
+
+
+
+        }
+
+        
 
 
 

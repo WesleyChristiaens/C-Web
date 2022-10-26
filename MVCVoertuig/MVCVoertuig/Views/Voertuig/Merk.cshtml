@@ -1,0 +1,10 @@
+﻿@model IEnumerable<MVCVoertuig.Models.Data.Voertuig>
+@{
+    ViewData["Title"] = "View";
+    var merk = ViewBag.Merk;
+}
+
+<br />
+<car-info merk="@merk"></car-info>
+<br/>
+
