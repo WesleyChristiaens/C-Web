@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCVoertuig/MVCVoertuig/Views/Account/RegistrationCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb25Db21wbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCVoertuig/MVCVoertuig/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCVoertuig/MVCVoertuig/Views/Shared/VoertuigCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZvZXJ0dWlnQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCVoertuig/MVCVoertuig/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVCVoertuig/MVCVoertuig/Views/Shared/_ValidationScriptsPartial.cshtml]

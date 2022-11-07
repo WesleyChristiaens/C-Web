@@ -8944,11 +8944,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\MVCModelValidation\\MVCModelValidation.csproj",
+      "projectUniqueName": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C-Web\\MVCModelValidation\\MVCModelValidation.csproj",
       "projectName": "MVCModelValidation",
-      "projectPath": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\MVCModelValidation\\MVCModelValidation.csproj",
+      "projectPath": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C-Web\\MVCModelValidation\\MVCModelValidation.csproj",
       "packagesPath": "C:\\Users\\zesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C# Web\\Projecten\\MVCModelValidation\\obj\\",
+      "outputPath": "C:\\Users\\zesse\\Desktop\\PXL werkmap\\4_PRO_2_SEM1\\C-Web\\MVCModelValidation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9006,7 +9006,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

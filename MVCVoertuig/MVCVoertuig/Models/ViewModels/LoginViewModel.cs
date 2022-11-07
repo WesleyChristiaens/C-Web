@@ -1,5 +1,6 @@
 ﻿using Microsoft.Build.Framework;
 
+
 namespace MVCVoertuig.Models.ViewModels
 {
     public class LoginViewModel
@@ -8,7 +9,7 @@ namespace MVCVoertuig.Models.ViewModels
         [Required]
         public string? Email { get; set; }
 
-        [Required]
+        [Required]        
         public string? Password { get; set; }
     }
 }

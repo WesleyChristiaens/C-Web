@@ -3,7 +3,13 @@
     ViewData["Title"] = "View";
     var merk = ViewBag.Merk;
 }
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@foreach (var voertuig in Model)
+{
+    <partial name="VoertuigCard" model="voertuig" />
+}
 <br />
 <car-info merk="@merk"></car-info>
 <br/>
