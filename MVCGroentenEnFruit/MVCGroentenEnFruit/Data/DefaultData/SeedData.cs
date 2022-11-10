@@ -13,7 +13,7 @@ namespace MVCGroentenEnFruit.Data.DefaultData
             {
                 var _context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 var _roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-                await VoegRollenToeAsync(_roleManager, _context);
+                await VoegRollenToeAsync(_context, _roleManager);
             }
         }
 
@@ -32,9 +32,9 @@ namespace MVCGroentenEnFruit.Data.DefaultData
             }
         }
 
-        private static async Task VoegRollenToeAsync(RoleManager<IdentityRole> _roleManager,AppDbContext _context)
+        private static async Task VoegRollenToeAsync(AppDbContext _context,RoleManager<IdentityRole> _roleManager)
         {
-            if(_context.Roles.Any())
+            if(!_context.Roles.Any())
             {
                 await VoegRolToeAsync(_roleManager, Roles.aankoper);
                 await VoegRolToeAsync(_roleManager, Roles.verkoper);

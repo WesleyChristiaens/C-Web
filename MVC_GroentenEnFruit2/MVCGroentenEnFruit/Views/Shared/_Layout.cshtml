@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVCGroentenEnFruit</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MVCGroentenEnFruit.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="d-flex bg-success text-white p-2">
+            <span class="navbar-brand flex-grow-1 ml-2">
+                <a class="btn btn-block link-light border-white" asp-controller="Home" asp-action="Index">Groenten en fruit</a>
+                <a class="btn btn-block link-light border-white" asp-controller="Artikels" asp-action="Index">Artikels</a>           
+                <a class="btn btn-block link-light border-white" asp-controller="AankoopOrders" asp-action="Index">Aankoop orders</a>           
+            </span>
+            <a class="btn btn-block link-light border-danger m-1" asp-controller="Account" asp-action="Register">Register</a>
+            <a class="btn btn-block link-light border-danger m-1" asp-controller="Account" asp-action="Login">Login</a>
+            <a class="btn btn-block link-light border-danger m-1" asp-controller="Account" asp-action="Logout">Logout</a>  
+            <a class="btn btn-block link-light border-danger m-1" asp-controller="Account" asp-action="Identity">Identity</a>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - MVCGroentenEnFruit - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

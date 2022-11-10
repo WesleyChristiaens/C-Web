@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCGroentenEnFruit
+build_property.RootNamespace = MVCGroentenEnFruit
+build_property.ProjectDir = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVC_GroentenEnFruit2\MVCGroentenEnFruit\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zesse\Desktop\PXL werkmap\4_PRO_2_SEM1\C-Web\MVC_GroentenEnFruit2\MVCGroentenEnFruit
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/AankoopOrders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWFua29vcE9yZGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/AankoopOrders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWFua29vcE9yZGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/AankoopOrders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWFua29vcE9yZGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/AankoopOrders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWFua29vcE9yZGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/AankoopOrders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWFua29vcE9yZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Account/Identity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJZGVudGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Artikels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Artikels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Artikels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Artikels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Artikels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zesse/Desktop/PXL werkmap/4_PRO_2_SEM1/C-Web/MVC_GroentenEnFruit2/MVCGroentenEnFruit/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wfvqxae255
